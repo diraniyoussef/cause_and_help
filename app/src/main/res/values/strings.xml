@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">تحية و قضية - لبنان</string>
+    <string name="title_activity_maps">تحية و قضية - لبنان</string>
+    <string-array name="spinner_do_string_array">
+        <item>شاهد التحيات</item>
+        <item>شاهد القضايا</item>
+    </string-array>
+    <string-array name="spinner_you_are_string_array">
+        <item>أنت تشاهد التحيات</item>
+        <item>أنت تشاهد القضايا</item>
+    </string-array>
+
+</resources>

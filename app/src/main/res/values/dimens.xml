@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin_small">3dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_extra">30dp</dimen>
+    <dimen name="fab_margin_extra_extra">60dp</dimen>
+    <dimen name="fab_margin_extra_extra_extra">75dp</dimen>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_MarkerStatement"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/myborder"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:clickable="true"
+    android:visibility="gone"
+    android:layout_gravity="bottom">
+
+    <!--
+    <TextView
+        android:id="@+id/TextView_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="سمير الأسمر"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/TextView_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Fri 15 Nov '19  at 10:16"
+        android:textColor="@color/colorSimilarToText"
+        android:textSize="12sp" />
+-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextView_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:text="3.1K"
+                android:textColor="#78BE27"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_like"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/like" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextView_dislikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:text="7"
+                android:textColor="#FF620D"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_dislike"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/dislike" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView_statement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_margin="3dp"
+        android:lineSpacingExtra="4sp"
+        android:paddingStart="2dp"
+        android:paddingLeft="2dp"
+        android:layout_gravity="start"
+        android:text="تحياتي أصدقائي، هذه أفضل تمنياتي لكم. أنا أحبكم جميعاً"
+        android:textSize="16sp" />
+
+</LinearLayout>

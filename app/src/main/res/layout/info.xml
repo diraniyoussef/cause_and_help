@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginBottom="@dimen/fab_margin_extra_extra"
+    android:visibility="gone"
+    android:orientation="vertical"
+    android:background="@drawable/myborder">
+
+    <ScrollView
+        android:id="@+id/scroll_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_userGuide1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brief explanation text to user"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/textView_userGuideMore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:text="if clicked by user will show textView_userGuide2"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/textView_userGuide2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Extended explanation text to user"
+                android:visibility="gone"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/textView_userGuide3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="my address"
+                android:visibility="gone"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:id="@+id/textView_userGuide4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="my address on the map"
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                />
+
+            <Button
+                android:id="@+id/button_removeScrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="حسناً" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
